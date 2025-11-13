@@ -1,32 +1,95 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: #1a1a1a;
+    background-color: #1a1a1a; /*Mudar a cor de fundo*/
 }
-
-
-
 
 
 li a{
-text-decoration: none; /*Remove o sublinhado*/
-font-size: 20px; /*Tamanho da fonte*/
+text-decoration: none; /*Remove o sublinhado */
+font-size: 20px; /* Tamanho da font */
 color: #ffffff;
+padding: 20px;
 }
 
 li{
-    list-style: none; /*Remove formatação da lista*/
+    list-style: none; /* Remover formatação da lista */
+}
+
+#logo{
+
+    height: 90px; /*Altura */
+    width: 190px; /*Largura*/
+}
+
+ul{
+    display: flex; /*Indica a proprieade FlexBox */
+    flex-direction: row; /*colocar os elementos na horizontal ou na vertical */
+
 
 }
- #logo{
-    height: 100px; /*Altura*/
-    width: 180px /*Largura*/
 
- }
- 
- ul{
-display: flex; /*Indica a propriedade*/
-flex-direction: row; /*colocar os elementos na horizontal ou na vertical*/
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
- }
 
+.caixa-img-logo{
+
+    height: 90px;
+    width: 90px;
+}
+
+
+
+.bi{
+
+    font-size: 30px;
+    color: #4c544c4c;
+}
+
+
+
+
+    .banner{
+   background-image: url("./assets/banner.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 500px;
+   width: 800px;
+   border-radius: 25px;
+   display: flex;
+   align-items: center; 
+    }
+
+   
+
+
+
+
+
+   .texto-banner{
+    font-size: 35px;
+    color: #ffffff;
+    
+   }
+  
+
+  .bnt-menu {
+    width: 192px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: #333333;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    font-size: 19px;
+
+   }
+
+.caixa-texto.banner{
+    width: 250px;
+}
