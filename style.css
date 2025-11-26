@@ -108,6 +108,8 @@ ul {
 
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titulo-primario {
@@ -192,8 +194,8 @@ ul {
     background-image: url("./assets/x-box.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
-    width: 600px;
+    height: 500px;
+    width: 800px;
     border-radius: 15px;
     display: flex;
     justify-content: end;
@@ -240,4 +242,60 @@ width: 250px;
 .caixa-dois{
     font-size: 15px;
     color: #ffffff;
+}
+
+.caixa-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+}
+
+.caixa-um{
+    font-size: 19px;
+    color: #4c544c;
+}
+
+.caixa-dois{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.caixa-footer-dois{
+    color: #ffffff;
+    margin: 45px;
+    font-size: 15px;
+    gap: 20px;
+    width: 850px;
+}
+
+.bibi{
+    color: #ffffff;
+}
+
+.texto-footer-menor{
+    display: flex;
+   justify-content: start;
+    flex-direction: row;
+    width: 850px;
+    gap: 25px;
+}
+.icons-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 55px;
+    gap: 10px;
+}
+
+.caixa-mae-tres{
+    background-color: #333333;
+    margin: 45px;
+    height: 350px;
+    width: 900px;
+}
+
+.texto-menor{
+    display: flex;
+    justify-content: center;
 }
